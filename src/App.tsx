@@ -1,16 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { ScatterChart,Scatter, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import wineData from './wine.json';
 
-function App() {
+
+interface WineData {
+  alcohol: number;
+  color_intensity: number;
+  magnesium: number;
+  wine_type: string;
+  
+}
+
+const App = () => {
+  const [data, setData] = useState<WineData[]>([]);
+
+  useEffect(() => {
+    setData(wineData);
+  }, []);
+
   return (
     <div>
-      <h1>Wine Data Visualization</h1>
+      <h1 >Wine Data Visualization</h1>
       <h2>Scatter Plot: Color Intensity and Hue </h2>
-      <ScatterChart width={500} height={400}>
+      <ScatterChart width={500} height={400} >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis type="number" dataKey="Color intensity" name="Color intensity" unit="%" />
-        <YAxis type="number" dataKey="Hue" name="Hue" unit="units" />
+        <YAxis type="number" dataKey="Hue" name="Hue" unit="ph" />
         <Tooltip cursor={{ strokeDasharray: '3 3' }} />
         <Legend />
         <Scatter name="Wine Data" data={data} fill="#8884d8" />

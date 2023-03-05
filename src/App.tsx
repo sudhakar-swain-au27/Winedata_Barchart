@@ -1,24 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { ScatterChart,Scatter, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
-import wineData from './wineData.json';
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-
-interface WineData {
-  alcohol: number;
-  color_intensity: number;
-  magnesium: number;
-  wine_type: string;
-  
-}
-
-
-const App = () => {
-  const [data, setData] = useState<WineData[]>([]);
-
-  useEffect(() => {
-    setData(wineData);
-  }, []);
-
+function App() {
   return (
     <div>
       <h1>Wine Data Visualization</h1>

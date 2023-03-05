@@ -45,12 +45,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the 
+App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 >>>>>>> 88ada67 (Initialize project using Create React App)
 
-![WhatsApp Image 2023-03-05 at 9 56 28 PM](https://user-images.githubusercontent.com/91896763/222983790-54b25b31-3881-463a-8272-da4c0352d8cc.jpeg)
+[Create React ![WhatsApp Image 2023-03-05 at 10 03 04 PM](https://user-images.githubusercontent.com/91896763/222983848-43a99064-cce5-43b3-9ffe-1b926b9a8f4a.jpeg)
+![WhatsApp Image 2023-03-05 at 10 02 50 PM](https://user-images.githubusercontent.com/91896763/222983851-25799861-e4fd-43a6-b434-40cbd5b4ddc4.jpeg)
 
-
-![WhatsApp Image 2023-03-05 at 9 56 29 PM](https://user-images.githubusercontent.com/91896763/222983797-ecc52492-498b-499c-b39a-b5ed744edcf7.jpeg)
